@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: white;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 25%;
+    height: 540px;
+    background: url('https://i.gifer.com/4Cb2.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px black;
+    margin: 0px auto;
+    margin-top: 55px;
+    position: relative;
+}
+.container .top-horizontal{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.top-horizontal p{
+    color: white;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.top-horizontal .top-horizontal-icons{
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    gap: 30%;
+    font-size: large;
+}
+.right-vertical{
+    width: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin-top: 35%;
+    margin-left: 85%;
+}
+.right-vertical .top-horizontal-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.right-vertical .top-horizontal-icons i{
+    /* color: white; */
+    padding-top: 5px;
+}
+.right-vertical .top-horizontal-icons p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.container .bottom-horizontal{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 5%;
+}
+.bottom-horizontal .bottom-horizontal-icons{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.bottom-horizontal .bottom-horizontal-icons p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.container .profile-section{
+    height: 40px;
+    width: 40px;
+    background: url('https://www.hdwallpapers.in/download/solar_system_colorful_digital_art_4k_hd_abstract-HD.jpg');
+    /* background: url('nature.gif'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -10%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+.profile-name{
+    margin-top: -9%;
+    margin-left: 18%;
+}
+.caption{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 12px;
+}
+#thumbsup{
+    top: 45%;
+    left: 45%;
+    position: absolute;
+    font-size: 60px;
+    display: none;  
+    /* animation: thumbsup linear 0.5s; */
+}
+@keyframes thumbsup {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
